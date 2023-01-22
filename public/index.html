@@ -1,0 +1,75 @@
+<style>
+	body {
+		background-color: rgb(45,45,82);
+		margin:20px;
+	}
+
+	#menu {
+		height:30vh;
+		display: flex;
+		align-items: center;
+	}
+
+	#menu-items {
+		color: white;
+		font-size: clamp(2rem,4vw,4rem);
+		font-family: "Georgia", serif;
+		display: block;
+		margin-left: clamp(1rem, 10vw, 18rem);
+		margin:20px;
+	}
+
+	.button {
+		background-color: rgb(40,40,77);
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		font-size: clamp(2rem, 4vw, 4rem);
+		font-family: "Georgia", serif;
+		text-align: center;
+		text-decoration: none;
+		display: block;
+		margin: 10px;
+		font-size:16px;
+
+	}
+
+	.button:hover {
+		opacity:0.8;
+		background-color: rgb(50,45,45);
+		box-shadow: inset 1px 12px 10px 1px rgba(0,0,10,.2);
+	}
+
+	img {
+		align-items: center;
+		padding: 30px;
+	}
+
+	img:hover {
+
+	}
+
+	.card {
+		margin: 60px;
+	}
+
+	#game {
+		margin-top: 60px;
+		display: flex;
+	}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/3.6.2/fetch.min.js"></script>
+<script src="sketch.js"></script>
+<div id="game">
+	<div id="menu">
+		<div id="menu-items">
+			<span id="score">Score: </span> <br>
+			<span id="score-change" class="multiplier"></span> <br>
+			<button onclick="displayCard();" class="button">Next Card</button>
+			<button class="button">Stay</button>
+		</div>
+	</div>
+	<div id="card" class="card">
+	</div>
+</div>
