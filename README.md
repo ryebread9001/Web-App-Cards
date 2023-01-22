@@ -6,6 +6,8 @@
 
 This project was an attempt to create a web app that could allow for a proper high score table for my JavaScript game. I ended up deciding to use nodejs with express to handle the server. It was a learning experience to create a backend and frontend that interfaced with each other.
 
+The actual game is quite simple. I created a script that simulates drawing from a deck of cards. Each card adds to your total score however some cards may double or completely wipe out your score. It's up to the player when they want to "stay" and submit their score. You can always continue playing while running the risk of being set back to 0.
+
 This game and project is available for view at http://lyssie.org
 <sub><sup>the server has crashed on my before so I can't guaruntee it will be working 24/7</sup></sub>
 
