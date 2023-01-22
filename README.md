@@ -13,7 +13,7 @@ This game and project is available for view at http://lyssie.org
 
 I began this project with the hope of learning more about using tools such as fetch and node as well as to learn the basics of SQL databases.
 
-<a href="youtube.com">video link<a>
+<a href="https://youtu.be/JCjEHxhlh9w">video explanation link<a>
 
 
 # Web Pages
